@@ -1512,4 +1512,4 @@ D = Library:Tab("RaceV4",11446900930)
 Misc = Library:Tab("RaceV4",11446900930)
 G = Library:Tab("","")
 
-H:AddSeperator("Credit")
+H:Seperator("Server")
