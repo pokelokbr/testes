@@ -3324,19 +3324,19 @@ local Misc = Library:AddTab("Misc","11446835336")
 
 local Time = H:AddLabel("Executor Time");spawn(function() getgenv().Time = true;while true do wait(.1) UpdateTime() end end);function UpdateTime() local date = os.date("*t");local hour = (date.hour) % 24;local ampm = hour < 12 and "AM" or "PM";local timezone = string.format("%02i:%02i:%02i %s", ((hour -1) % 12) + 1, date.min, date.sec, ampm);local datetime = string.format("%02d/%02d/%04d", date.day, date.month, date.year);local LocalizationService = game:GetService("LocalizationService");local Players = game:GetService("Players");local player = Players.LocalPlayer;local name = player.Name;local result, code = pcall(function()   return LocalizationService:GetCountryRegionForPlayerAsync(player)  end);Time:Set(" : " .. timezone);Time:Set("Executor Time: " .. datetime .. " [ " .. code .. " ]");spawn(function() if getgenv().Time then pcall(function()  while wait() do  Time()  end end) end end) end
 
-H:AddLabel("Script By Pokas 🐗🐗")
-H:AddLabel("Seja bem vindo ao Meliodas HUB")
+H:AddLabel("Script By Yago X")
+H:AddLabel("Seja bem vindo ao Yago HUB")
 
 H:AddSeperator("Canal Do Youtube")
 
 
 
-H:AddButton("POKELOK BR",function()
-setclipboard("https://www.youtube.com/channel/UCMhX99w3W24yP7VaDJMlbNQ")
+H:AddButton("YagoRP",function()
+setclipboard("https://youtube.com/@YagoRPyoutube?si=0OPeFsHPaoNmuuFb")
 end)
 
 H:AddButton("Entre No Servidor Do DISCORD",function()
-setclipboard("https://discord.gg/FMkf5PfuSt")
+setclipboard("https://discord.com/invite/yaheCxVs2z")
 end)
 
 H:AddLine()
@@ -9097,7 +9097,7 @@ notification.Volume = 5 --ระวังหูแตก
                         wait(5)
                     game.StarterGui:SetCore("SendNotification", {
                         Icon = "http://www.roblox.com/asset/?id=15882149221";
-                        Title = "Meliodas hub Notification", 
+                        Title = "Yago hub Notification", 
                         Text = "Kitsune Spawnada 🦊";
                     notification:Play()
                     })
@@ -15404,13 +15404,13 @@ print("For Skid Reskin i Hua Kuy ")
 
 game.StarterGui:SetCore("SendNotification", {
       Icon = "http://www.roblox.com/asset/?id=15498317188";
-      Title = "Meliodas Hub", 
-      Text = "Bem vindo ao Meliodas Hub";
+      Title = "Yago Hub", 
+      Text = "Bem vindo ao Yago Hub";
 })
 wait(3)
 game.StarterGui:SetCore("SendNotification", {
       Icon = "http://www.roblox.com/asset/?id=15498317188";
-      Title = "Meliodas Hubb", 
+      Title = "Yago Hubb", 
       Text = "Script By Pokas🐗🐗";
 })
 
