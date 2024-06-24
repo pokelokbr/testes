@@ -1,6 +1,6 @@
-local linkvertise = 'https://bit.ly/49HHGTi'
+local linkvertise = 'https://alphageek.online/url/50MGw0SxvJ'
 local discordLink = 'https://discord.gg/KAjqmrqSC6'
-local uniqueKey = game:HttpGet'https://pastebin.com/raw/fFHiwNQT';
+local uniqueKey = game:HttpGet'https://alphageek.online/geradordekeys.php';
 
 local thescript = [[
     loadstring(game:HttpGet("https://raw.githubusercontent.com/pokelokbr/testes/main/yagoaberto"))()
